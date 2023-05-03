@@ -1,0 +1,49 @@
+Case Study: Setting up a Dev Server
+
+# What you are exepected to learn 
+
+This case study tests students' ability to use for loops, prompt for user input, validate input, and install packages using conditional statements. 
+The script allows one to modify the prompt and package list to fit their specific needs and test additional skills such as error handling, package 
+configuration, and exit status.
+
+
+# Start of the Case 
+
+You have been tasked with setting up a new dev server for your team. The server will run Ubuntu 20.04 and needs to have the following packages installed:
+Git
+Maven
+OpenJDK 11
+Docker
+Docker Compose
+Ansible
+Terraform
+Nginx
+
+However, your team only needs some of these packages for their specific projects. You want to create a script that allows your team members to choose which packages 
+they want to install.
+
+Write a bash script that prompts the user to select the packages they want to install and installs them using a for loop. Your script should have the following 
+requirements:
+
+The script should run as root
+The script should check if the selected packages are already installed and skip installation if they are
+The script should display a message indicating which packages have been installed
+The script should display an error message if an invalid selection is made
+
+Here is an example prompt that you can use:
+
+Which packages would you like to install?
+1. Git
+2. Maven
+3. OpenJDK 11
+4. Docker
+5. Docker Compose
+6. Ansible
+7. Terraform
+8. Nginx
+
+Enter a comma-separated list of package numbers to install (e.g. 1,3,5):
+
+Your script should allow the user to enter a comma-separated list of package numbers, validate the input, and install the selected packages using a for loop.
+Once you have written your script, test it by running it on a fresh Ubuntu 20.04 server and selecting different combinations of packages to install.
+

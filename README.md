@@ -62,9 +62,13 @@ The ;; is used to mark the end of a case block.
 # The default Pattern to indicate the value entered is not part of the numbers defined in the case
 
    *)
+   
       echo "Invalid selection: $choice"
+      
    ;;
+   
  esac 
+ 
 done 
 
 esac is used to signal the end of a case statement in a Unix/Linux shell script.

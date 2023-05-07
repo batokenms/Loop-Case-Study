@@ -61,13 +61,13 @@ The ;; is used to mark the end of a case block.
 
 # The default Pattern to indicate the value entered is not part of the numbers defined in the case
 
-   *)
+          *)
    
-      echo "Invalid selection: $choice"
+             echo "Invalid selection: $choice"
       
-   ;;
+         ;;
    
- esac 
+    esac 
  
 done 
 

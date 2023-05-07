@@ -42,16 +42,21 @@ The corresponding block of code that follows will be executed if the pattern mat
 
 # What is  double semi colon used for in the script     
 if [ -x "$(command -v mvn)" ]; then
+
     echo "Maven already installed"
+    
 else
+
     apt-get -y install maven
+    
     echo "Maven installed"
+    
 fi
+
 ;;
 
-The double semicolon ;; in the shell script you provided is used to indicate the end of a case block. 
+The double semicolon ;; in the shell script is used to indicate the end of a case block. 
 It is used to terminate the code block associated with a specific pattern in the case statement.
-However, in the code snippet you provided, the ;; appears to be used erroneously and does not belong there. 
 The ;; is used to mark the end of a case block. 
 
 

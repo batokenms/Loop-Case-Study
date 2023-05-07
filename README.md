@@ -40,3 +40,18 @@ In this particular example, the case statement is used to handle each package nu
 The 1) is the start of a pattern block that matches the value "1" when it is tested against the $choice variable. 
 The corresponding block of code that follows will be executed if the pattern matches.
 
+# What is  double semi colon used for in the script     
+if [ -x "$(command -v mvn)" ]; then
+    echo "Maven already installed"
+else
+    apt-get -y install maven
+    echo "Maven installed"
+fi
+;;
+
+The double semicolon ;; in the shell script you provided is used to indicate the end of a case block. 
+It is used to terminate the code block associated with a specific pattern in the case statement.
+However, in the code snippet you provided, the ;; appears to be used erroneously and does not belong there. 
+The ;; is used to mark the end of a case block. 
+
+

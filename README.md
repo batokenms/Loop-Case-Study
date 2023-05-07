@@ -59,4 +59,14 @@ The double semicolon ;; in the shell script is used to indicate the end of a cas
 It is used to terminate the code block associated with a specific pattern in the case statement.
 The ;; is used to mark the end of a case block. 
 
+# The default Pattern to indicate the value entered is not part of the numbers defined in the case
 
+   *)
+      echo "Invalid selection: $choice"
+   ;;
+ esac 
+done 
+
+esac is used to signal the end of a case statement in a Unix/Linux shell script.
+
+![image](https://user-images.githubusercontent.com/88409463/236681933-9fb5ae47-2fe0-4596-9d36-89217a0e2d72.png)

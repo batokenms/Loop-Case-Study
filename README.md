@@ -33,3 +33,10 @@ Putting it all together, the command for choice in $(echo $choices | tr ',' ' ')
 
 This allows the script to install each package selected by the user, one at a time.
 
+# What does this means   case $choice in
+    1)
+
+In this particular example, the case statement is used to handle each package number selected by the user, which is stored in the variable $choice. 
+The 1) is the start of a pattern block that matches the value "1" when it is tested against the $choice variable. 
+The corresponding block of code that follows will be executed if the pattern matches.
+
